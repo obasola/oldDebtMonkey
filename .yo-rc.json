@@ -1,0 +1,48 @@
+{
+  "generator-angm": {
+    "appName": "debtmonkey",
+    "angularCookies": true,
+    "angularAnimate": true,
+    "angularSanitize": true,
+    "angularMaterial": true,
+    "modules": [
+      {
+        "name": "accounts"
+      },
+      {
+        "name": "accounthistory"
+      },
+      {
+        "name": "user"
+      },
+      {
+        "name": "payments"
+      },
+      {
+        "name": "paymenyhistory"
+      }
+    ],
+    "menu": [
+      {
+        "link": "accounts",
+        "title": "Accounts"
+      },
+      {
+        "link": "accounthistory",
+        "title": "Accounthistory"
+      },
+      {
+        "link": "user",
+        "title": "User"
+      },
+      {
+        "link": "payments",
+        "title": "Payments"
+      },
+      {
+        "link": "paymenyhistory",
+        "title": "Paymenyhistory"
+      }
+    ]
+  }
+}

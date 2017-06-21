@@ -1,0 +1,13 @@
+<div class="md-padding" flex layout-sm="column">
+    <md-card>
+        <md-card-content>
+            <h2 class="md-title">Financial Accounts</h2>
+
+            <ul ng-controller="AccountsCtrl as accountsCtrl">
+              <li ng-repeat="account in accountsCtrl.accounts track by $index">
+                Name: {{account.accountName} } 
+              </li>
+            </ul>
+        </md-card-content>
+    </md-card>
+</div>
